@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="et_name">логин</string>
+    <string name="et_password">пароль</string>
+    <string name="first_button">войти</string>
+    <string name="two_button">войти как гость</string>
+    <string name="two_Act_hd">Food</string>
+    <string name="splash_screen">Food</string>
+    <string name="lite_go">Добро пожаловать</string>
+</resources>

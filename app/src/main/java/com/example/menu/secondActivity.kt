@@ -46,6 +46,6 @@ class secondActivity : AppCompatActivity() {
     }
     fun myFaq(item: MenuItem) {
         val faqIntent = Intent(this@secondActivity, sevenActivity::class.java)
-        startActivity(faqIntent)
+        startActivity(faqIntent   )
     }
 }

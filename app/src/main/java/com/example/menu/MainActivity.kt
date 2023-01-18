@@ -25,9 +25,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
-
-
     fun goMy(@Suppress("UNUSED_PARAMETER")view: View){
         val text = mBinding.etName.text.toString()
         if(text.length > 4 ){

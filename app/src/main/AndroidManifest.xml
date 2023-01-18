@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
+            android:name=".sevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fourActivity"
+            android:exported="false" />
+        <activity
             android:name=".splash_screen_Activity"
             android:exported="true">
             <intent-filter>
@@ -22,12 +31,19 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".secondActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".threeActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

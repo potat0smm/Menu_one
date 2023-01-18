@@ -5,22 +5,50 @@
     android:id="@+id/drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3A3838"
+    android:background="#CDCCCC"
     tools:context=".secondActivity">
 
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="226dp"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="200dp"
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/header"
+            android:textColor="@color/Button_one"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="150dp"
         android:layout_height="match_parent"
-        android:background="#191818"
-        android:text="Food"
-        android:textSize="40sp"
-        android:textColor="#03781C"/>
+        android:layout_gravity="start"
+        app:itemShapeFillColor="@color/open_catalog"
+        app:itemTextColor="#C5C0C0"
+        app:menu="@menu/nav_menu" />
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

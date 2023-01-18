@@ -21,7 +21,12 @@ class MainActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
+
+
     }
+
+
+
 
     fun goMy(@Suppress("UNUSED_PARAMETER")view: View){
         val text = mBinding.etName.text.toString()

@@ -7,4 +7,11 @@
     <string name="two_Act_hd">Food</string>
     <string name="splash_screen">Food</string>
     <string name="lite_go">Добро пожаловать</string>
+    <string name="op_menu">menu</string>
+    <string name="title">Меню</string>
+    <string name="menu_menu">Меню</string>
+    <string name="basket_menu">Корзина</string>
+    <string name="about_menu">О нас</string>
+    <string name="faq_menu">FAQ</string>
+    <string name="header">Food</string>
 </resources>

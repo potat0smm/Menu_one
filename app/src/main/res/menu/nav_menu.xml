@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/title">
+        <menu>
+            <item
+                android:onClick="myMenu"
+                android:id="@+id/item1"
+                android:icon="@drawable/icons8__60"
+                android:title="@string/menu_menu" />
+            <item
+                android:onClick="myBasket"
+                android:id="@+id/item2"
+                android:icon="@drawable/icons8__60"
+                android:title="@string/basket_menu" />
+            <item
+                android:onClick="myAbout"
+                android:id="@+id/item3"
+                android:icon="@drawable/icons8__60"
+                android:title="@string/about_menu" />
+            <item
+                android:onClick="myFaq"
+                android:id="@+id/item4"
+                android:icon="@drawable/icons8__60"
+                android:title="@string/faq_menu" />
+        </menu>
+    </item>
+
+</menu>
